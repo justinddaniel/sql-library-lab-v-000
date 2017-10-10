@@ -9,7 +9,7 @@ INSERT INTO books (title, year, series_id) VALUES
 ("SER", 1999, 5),
 ("TER", 1989, 6);
 
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES 
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
 ("GOOFY", "BE GOOFY", "HUMAN", 1, 2),
 ("SPOOFY", "BE SPOOFY", "HUMAN", 1, 2),
 ("TOOFY", "BE TOOFY", "HUMAN", 1, 2),
@@ -18,3 +18,9 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
 ("POOFY", "BE POOFY", "DINOSAUR", 2, 1),
 ("BOOFY", "BE BOOFY", "DINOSAUR", 2, 1),
 ("FOOFY", "BE FOOFY", "DINOSAUR", 2, 1);
+
+INSERT INTO subgenres (name) VALUES ("comedy"), ("dinosaurology");
+
+INSERT INTO authors (name) VALUES ("GENGHIS KHAN"), ("BOZO THE CLOWN");
+
+
